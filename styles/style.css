@@ -249,6 +249,10 @@
     filter: grayscale(100%);
 }
 
+.sp_images img {
+    width: 100%;
+}
+
 /* contact us  */
 .contact_container {
     margin: 5rem 10rem;
@@ -290,3 +294,6 @@
     border-radius: .5rem;
     padding: 2rem 15rem;
 }
+
+/* responsive layouts */
+@media screen and (max-width:576px) {}
