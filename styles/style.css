@@ -23,7 +23,7 @@
 .nav_items a {
     color: #424242;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
     padding-right: 1rem;
 }
@@ -31,29 +31,34 @@
 /* banner section  */
 .banner_title {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 4rem;
     color: #131313;
     margin-left: 7em;
     margin-right: 7em;
-    padding-left: 5rem;
-    /* padding-right: 5rem; */
-    background-color: aqua;
+    /* padding: 1rem ; */
+    text-align: center;
 }
 
 .description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: #727272;
+    margin-left: 20rem;
+    margin-top: 0;
+    margin-right: 20rem;
+    padding: .5rem;
+    text-align: center;
 }
 
 .btn-primary {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFFFFF;
     background: #FF900E;
-    border-radius: 8px;
+    border-radius: .5rem;
     border: none;
     padding: 1rem;
+    margin-top: 2rem;
 }
 
 .btn_container {
@@ -62,8 +67,6 @@
 
 .banner_container img {
     width: 75%;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 3rem;
+    margin: 3rem 10rem 0 10rem;
     padding-bottom: 2rem;
 }
