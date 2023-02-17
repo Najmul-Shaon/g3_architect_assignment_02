@@ -39,7 +39,7 @@
     text-align: center;
 }
 
-.description {
+.banner_description {
     font-weight: 400;
     font-size: 1rem;
     color: #727272;
@@ -69,4 +69,45 @@
     width: 75%;
     margin: 3rem 10rem 0 10rem;
     padding-bottom: 2rem;
+}
+
+/* quick feature  */
+.quick_features {
+    /* margin-top: 5rem; */
+    display: flex;
+    gap: 1rem;
+    margin: 5rem 10rem 0 10rem;
+}
+
+.feature_images {
+    display: flex;
+    gap: 1rem;
+}
+
+.feature_images img {
+    margin-top: 1rem;
+}
+
+.quick_feature_title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.quick_feature_title span {
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #131313;
+}
+
+.quick_feature_title_sub-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick_feature_description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
 }
