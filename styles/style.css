@@ -296,4 +296,18 @@
 }
 
 /* responsive layouts */
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+    .nav_items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_menu a {
+        margin-top: .5rem;
+    }
+}
