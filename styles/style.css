@@ -1,4 +1,28 @@
+/* universal selectors  */
 * {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* nav  */
+.header_container{
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_items h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #131313;
+}
+
+.nav_items a {
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 1rem;
+}
