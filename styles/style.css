@@ -4,9 +4,10 @@
 }
 
 /* nav  */
-.header_container{
+.header_container {
     background: rgba(255, 144, 14, 0.1);
 }
+
 .nav_items {
     display: flex;
     justify-content: space-around;
@@ -25,4 +26,44 @@
     font-size: 18px;
     text-decoration: none;
     padding-right: 1rem;
+}
+
+/* banner section  */
+.banner_title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-left: 7em;
+    margin-right: 7em;
+    padding-left: 5rem;
+    /* padding-right: 5rem; */
+    background-color: aqua;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 1rem;
+}
+
+.btn_container {
+    text-align: center;
+}
+
+.banner_container img {
+    width: 75%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
 }
