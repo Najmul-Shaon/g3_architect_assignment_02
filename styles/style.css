@@ -275,10 +275,9 @@
 }
 
 .contact_zone {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
 .address,
@@ -308,7 +307,9 @@
     color: #424242;
     background: #FFF4E7;
     border-radius: .5rem;
-    padding: 2rem 15rem;
+    /* padding: 2rem 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* danger  */
@@ -386,7 +387,13 @@
     }
 
     /* sponsor  */
-    .sp_images{
+    .sp_images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* contact  */
+    .contact_zone {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
