@@ -70,8 +70,6 @@
     margin-top: 2rem;
 }
 
-
-
 /* quick feature  */
 .quick_feature_container {
     margin: 5rem 15%;
@@ -217,7 +215,9 @@
     border: #FF900E solid .06rem;
     padding: .9rem;
     text-align: center;
+    overflow: hidden;
 }
+
 
 .facts_count {
     font-weight: 600;
@@ -231,6 +231,11 @@
     font-size: 1.25rem;
     color: #727272;
     margin: .3rem 0;
+}
+
+/* fact transform  */
+.facts_card:hover img {
+    transform: scale(1.5);
 }
 
 /* sponsors  */
@@ -297,14 +302,8 @@
     color: #424242;
     background: #FFF4E7;
     border-radius: .5rem;
-    /* padding: 2rem 1rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-/* danger  */
-.hide {
-    display: none;
 }
 
 /* responsive layouts */
@@ -376,7 +375,6 @@
     .feature_details_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-
     }
 
     /* facts  */
