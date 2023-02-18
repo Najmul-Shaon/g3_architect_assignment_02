@@ -318,8 +318,8 @@
 
 /* responsive layouts */
 @media screen and (max-width:576px) {
-
-    /* .nav_items {
+/* nav items  */
+    .nav_items {
         display: flex;
         flex-direction: column;
     }
@@ -340,7 +340,7 @@
 
     .banner_title {
         margin: 0;
-        font-size: 5vw;
+        font-size: 10vw;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -379,6 +379,4 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
-
-    */
 }
