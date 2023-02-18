@@ -16,7 +16,8 @@
 
 .nav_items h1 {
     font-weight: 700;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 200%;
     color: #131313;
 }
 
@@ -31,11 +32,11 @@
 /* banner section  */
 .banner_title {
     font-weight: 700;
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: 290%;
     color: #131313;
     margin-left: 7em;
     margin-right: 7em;
-    /* padding: 1rem ; */
     text-align: center;
 }
 
@@ -73,7 +74,6 @@
 
 /* quick feature  */
 .quick_features {
-    /* margin-top: 5rem; */
     display: flex;
     gap: 1rem;
     margin: 5rem 10rem;
@@ -94,6 +94,7 @@
     font-weight: 500;
     font-size: 2.8rem;
     color: #727272;
+    margin-bottom: .05rem;
 }
 
 .quick_feature_title span {
@@ -106,6 +107,7 @@
     font-weight: 700;
     font-size: 2.8rem;
     color: #FF900E;
+    margin-top: .05rem;
 }
 
 .quick_feature_description {
@@ -213,14 +215,14 @@
 
 .facts_count {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 2.8rem;
     color: #424242;
     margin: .5rem 0;
 }
 
 .fact_title {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #727272;
     margin: .3rem 0;
 }
@@ -268,8 +270,8 @@
 .address,
 .subscribe {
     background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, 0.06);
+    border-radius: .5rem;
     padding: 1rem 2rem;
 }
 
@@ -287,12 +289,17 @@
 
 .footer_description {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25 rem;
     text-align: center;
     color: #424242;
     background: #FFF4E7;
     border-radius: .5rem;
     padding: 2rem 15rem;
+}
+
+/* danger  */
+.hide {
+    display: none;
 }
 
 /* responsive layouts */
@@ -310,4 +317,40 @@
     .nav_menu a {
         margin-top: .5rem;
     }
+
+    .banner_title {
+        margin: 0;
+    }
+
+    .banner_description {
+        margin: 0;
+    }
+
+    .banner_container img {
+        margin: 1rem 3rem;
+    }
+
+    .quick_features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature_image_one,
+    .feature_image_two {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* feature details  */
+    .feature_details {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .feature_details img {
+        margin: 0;
+        width: 100%;
+    }
+
 }
